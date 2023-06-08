@@ -1,0 +1,44 @@
+      <div class="div-inventory_quantity-texts">
+         <p> Vain <strong class="counts">9</strong> jäljellä tällä hinnalla</p>
+        </div>
+         <script>
+   $(document).ready(function() { 
+           function setCounterValue() {
+           var random = Math.floor(Math.random() * (9 - 5 + 1)) + 5;
+           $(".counts").html(random);
+           setTimeout(function(){ setCounterValue(); }, 1000);
+        }
+        setCounterValue();
+        setTimeout(function(){ setCounterValue(); }, 1000);      
+      });  
+</script>  
+
+
+
+Dynamic rendom number code.
+
+
+
+
+
+
+
+  <div class="div-inventory_quantity-text">
+         <p> <img src="https://cdn.shopify.com/s/files/1/0726/0674/4924/files/eye.png?v=1686142341" class="eye-cstm"/> <strong class="count">39</strong>vierailijaa katsoo tätä tuotetta</p>
+        </div>
+
+<script>
+   $(document).ready(function() { 
+           function setCounterValue() {
+           var random = Math.floor(Math.random() * (39 - 20 + 1)) + 20;
+           $(".count").html(random);
+           setTimeout(function(){ setCounterValue(); }, 8000);
+        }
+        setCounterValue();
+        setTimeout(function(){ setCounterValue(); }, 8000);      
+      });  
+</script>
+
+
+
+Dyamic viewer ciunt code
